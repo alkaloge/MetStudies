@@ -10,9 +10,9 @@ Analysis based on the 2018 data recommendations here: https://twiki.cern.ch/twik
 
 To succesfully compile the ntuplizer code following steps are needed:
 ```
-cmsrel CMSSW_10_2_15
+cmsrel CMSSW_10_6_5
 
-cd CMSSW_10_2_15/src/
+cd CMSSW_10_6_5/src/
 
 cmsenv
 
