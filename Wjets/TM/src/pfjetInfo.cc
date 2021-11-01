@@ -1,4 +1,4 @@
-#include "GammaJets/TM/interface/pfjetInfo.h"
+#include "Wjets/TM/interface/pfjetInfo.h"
 
 pfjetInfo::pfjetInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in pfjet constructor"<<std::endl;

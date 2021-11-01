@@ -1,8 +1,8 @@
-#include "GammaJets/TM/interface/muonInfo.h"
+#include "Wjets/TM/interface/muonInfo.h"
 #include "DataFormats/MuonReco/interface/MuonSelectors.h"
 #include "DataFormats/VertexReco/interface/Vertex.h"
 #include "DataFormats/VertexReco/interface/VertexFwd.h"
-#include "GammaJets/TM/interface/rhoInfo.h"
+#include "Wjets/TM/interface/rhoInfo.h"
 
 muonInfo::muonInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in muon constructor"<<std::endl;

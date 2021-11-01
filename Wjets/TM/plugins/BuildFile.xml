@@ -25,8 +25,8 @@
 <use   name="Geometry/RPCGeometry"/>
 <use   name="CondFormats/JetMETObjects"/>
 <use   name="JetMETCorrections/Objects"/>
-<use   name="GammaJets/TM"/>
+<use   name="Wjets/TM"/>
 <use   name="PhysicsTools/JetMCUtils"/>
-<library   file="*.cc" name="GammaJetsTMPlugins">
+<library   file="*.cc" name="WjetsTMPlugins">
   <flags   EDM_PLUGIN="1"/>
 </library>

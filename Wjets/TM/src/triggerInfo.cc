@@ -1,4 +1,4 @@
-#include "GammaJets/TM/interface/triggerInfo.h"
+#include "Wjets/TM/interface/triggerInfo.h"
 #include "DataFormats/PatCandidates/interface/TriggerObjectStandAlone.h"
 
 triggerInfo::triggerInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){

@@ -12,8 +12,8 @@
 #include "DataFormats/Common/interface/Handle.h"
 #include "DataFormats/PatCandidates/interface/Muon.h"
 #include "DataFormats/Math/interface/LorentzVector.h"
-#include "GammaJets/TM/interface/utils.h"
-#include "GammaJets/TM/interface/baseTree.h"
+#include "Wjets/TM/interface/utils.h"
+#include "Wjets/TM/interface/baseTree.h"
 #include "DataFormats/MuonReco/interface/MuonSelectors.h"
 
 class muonInfo : public baseTree{

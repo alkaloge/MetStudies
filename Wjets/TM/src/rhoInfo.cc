@@ -1,4 +1,4 @@
-#include "GammaJets/TM/interface/rhoInfo.h"
+#include "Wjets/TM/interface/rhoInfo.h"
 
 rhoInfo::rhoInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in rho constructor"<<std::endl;

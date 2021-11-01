@@ -10,8 +10,8 @@
 #include "TClonesArray.h"
 #include "FWCore/Framework/interface/Event.h"
 #include "DataFormats/Common/interface/Handle.h"
-#include "GammaJets/TM/interface/utils.h"
-#include "GammaJets/TM/interface/baseTree.h"
+#include "Wjets/TM/interface/utils.h"
+#include "Wjets/TM/interface/baseTree.h"
 #include "SimDataFormats/PileupSummaryInfo/interface/PileupSummaryInfo.h"
 using namespace std;
 using namespace edm;

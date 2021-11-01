@@ -1,4 +1,4 @@
-#include "GammaJets/TM/interface/tauInfo.h"
+#include "Wjets/TM/interface/tauInfo.h"
 #include "DataFormats/PatCandidates/interface/PackedCandidate.h"
 
 

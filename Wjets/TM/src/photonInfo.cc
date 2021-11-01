@@ -1,4 +1,4 @@
-#include "GammaJets/TM/interface/photonInfo.h"
+#include "Wjets/TM/interface/photonInfo.h"
 
 photonInfo::photonInfo(std::string name, TTree* tree, bool debug, const pset& iConfig):baseTree(name,tree,debug){
   if(debug) std::cout<<"in photon constructor"<<std::endl;
