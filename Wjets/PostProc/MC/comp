@@ -1,0 +1,1 @@
+ g++ -g  -Wno-deprecated anaWjets.C -o out.exe  -I$ROOTSYS/include -L$ROOTSYS/lib `root-config --cflags` `root-config --libs`

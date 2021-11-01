@@ -1,0 +1,1686 @@
+DEBUG 2021-10-27 14:30:31.953 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:30:31.953 UTC: 	 Running on: Linux cmslpc143.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:30:31.953 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 14:30:31.954 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 14:30:31.965 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-27 14:30:31.965 UTC: 	 Loading CRAB configuration file.
+ERROR 2021-10-27 14:30:31.968 UTC: 	 Error while loading CRAB configuration:
+EOL while scanning string literal (crab3_QCD100.py, line 20)
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+ERROR 2021-10-27 14:30:31.968 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 311, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 90, in loadConfig
+    raise ConfigurationException(configmsg)
+ConfigurationException: Error while loading CRAB configuration:
+EOL while scanning string literal (crab3_QCD100.py, line 20)
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+INFO 2021-10-27 14:30:31.970 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:31:47.074 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:31:47.074 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:31:47.074 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 14:31:47.074 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 14:31:47.083 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-27 14:31:47.083 UTC: 	 Loading CRAB configuration file.
+ERROR 2021-10-27 14:31:47.090 UTC: 	 Error while loading CRAB configuration:
+cannot import name getUsernameFromSiteDB
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+ERROR 2021-10-27 14:31:47.090 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 311, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 90, in loadConfig
+    raise ConfigurationException(configmsg)
+ConfigurationException: Error while loading CRAB configuration:
+cannot import name getUsernameFromSiteDB
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+INFO 2021-10-27 14:31:47.091 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:34:44.096 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:34:44.096 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:34:44.096 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 14:34:44.104 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 14:34:44.120 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-27 14:34:44.120 UTC: 	 Loading CRAB configuration file.
+ERROR 2021-10-27 14:34:44.130 UTC: 	 Error while loading CRAB configuration:
+cannot import name getUsernameFromSiteDB
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+ERROR 2021-10-27 14:34:44.130 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 311, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 90, in loadConfig
+    raise ConfigurationException(configmsg)
+ConfigurationException: Error while loading CRAB configuration:
+cannot import name getUsernameFromSiteDB
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+INFO 2021-10-27 14:34:44.132 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:35:14.324 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:35:14.324 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:35:14.324 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 14:35:14.325 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 14:35:14.327 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-27 14:35:14.328 UTC: 	 Loading CRAB configuration file.
+ERROR 2021-10-27 14:35:14.337 UTC: 	 Error while loading CRAB configuration:
+'function' object has no attribute 'General'
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+ERROR 2021-10-27 14:35:14.337 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 311, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 90, in loadConfig
+    raise ConfigurationException(configmsg)
+ConfigurationException: Error while loading CRAB configuration:
+'function' object has no attribute 'General'
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+INFO 2021-10-27 14:35:14.338 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:39:09.689 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:39:09.690 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:39:09.690 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 14:39:09.692 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 14:39:09.711 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-27 14:39:09.711 UTC: 	 Loading CRAB configuration file.
+INFO 2021-10-27 14:39:09.712 UTC: 	 Wrong format in command-line argument '--debug'. Expected format is <section-name>.<parameter-name>=<parameter-value>.
+INFO 2021-10-27 14:39:09.712 UTC: 	 If the argument '--debug' is an option to the submit command, try 'crab submit --debug [value for --debug option (if required)] [arguments]'.
+ERROR 2021-10-27 14:39:09.712 UTC: 	 ERROR: Wrong command-line format.
+ERROR 2021-10-27 14:39:09.712 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 311, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 68, in loadConfig
+    raise ConfigurationException("ERROR: Wrong command-line format.")
+ConfigurationException: ERROR: Wrong command-line format.
+INFO 2021-10-27 14:39:09.714 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:41:46.512 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:41:46.512 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:41:46.512 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 14:41:46.512 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 14:41:46.517 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-27 14:41:46.517 UTC: 	 Loading CRAB configuration file.
+INFO 2021-10-27 14:41:46.517 UTC: 	 Wrong format in command-line argument '--debug'. Expected format is <section-name>.<parameter-name>=<parameter-value>.
+INFO 2021-10-27 14:41:46.517 UTC: 	 If the argument '--debug' is an option to the submit command, try 'crab submit --debug [value for --debug option (if required)] [arguments]'.
+ERROR 2021-10-27 14:41:46.517 UTC: 	 ERROR: Wrong command-line format.
+ERROR 2021-10-27 14:41:46.517 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 311, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 68, in loadConfig
+    raise ConfigurationException("ERROR: Wrong command-line format.")
+ConfigurationException: ERROR: Wrong command-line format.
+INFO 2021-10-27 14:41:46.519 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:42:30.761 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:42:30.761 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:42:30.761 UTC: 	 Executing command: 'uploadlog'
+DEBUG 2021-10-27 14:42:30.761 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+DEBUG 2021-10-27 14:42:30.778 UTC: 	 Checking credentials
+DEBUG 2021-10-27 14:42:30.778 UTC: 	 Found proxy file /uscms/home/alkaloge/x509up_u53998
+DEBUG 2021-10-27 14:42:30.778 UTC: 	 Getting proxy life time left
+DEBUG 2021-10-27 14:42:30.881 UTC: 	 Executing : 
+ command : voms-proxy-info -file /uscms/home/alkaloge/x509up_u53998 -timeleft
+ output : 690077
+
+ error: 
+ retcode : 0
+DEBUG 2021-10-27 14:42:30.984 UTC: 	 Executing : 
+ command : voms-proxy-info -file /uscms/home/alkaloge/x509up_u53998 -actimeleft
+ output : 690076
+
+ error: 
+ retcode : 0
+DEBUG 2021-10-27 14:42:30.984 UTC: 	 Proxy lifetime 690077 secs is different from voms extension lifetime 690076 secs for proxy: /uscms/home/alkaloge/x509up_u53998
+DEBUG 2021-10-27 14:42:30.984 UTC: 	 Proxy valid for 191:41:16 hours
+DEBUG 2021-10-27 14:42:31.601 UTC: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+DEBUG 2021-10-27 14:42:31.707 UTC: 	 Executing : 
+ command : voms-proxy-info -file /uscms/home/alkaloge/x509up_u53998 -identity
+ output : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=alkaloge/CN=654885/CN=Alexis Kalogeropoulos
+
+ error: 
+ retcode : 0
+DEBUG 2021-10-27 14:42:31.710 UTC: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2021-10-27 14:42:31.710 UTC: 	 using 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1 as credential login name
+DEBUG 2021-10-27 14:42:32.513 UTC: 	 Executing : 
+ command : myproxy-info -l 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1 -s myproxy.cern.ch
+ output : username: 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=alkaloge/CN=654885/CN=Alexis Kalogeropoulos
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  timeleft: 719:53:17  (30.0 days)
+
+ error: 
+ retcode : 0
+DEBUG 2021-10-27 14:42:32.514 UTC: 	 Myproxy is valid: 2591597
+DEBUG 2021-10-27 14:42:32.514 UTC: 	 Retrieving username ...
+DEBUG 2021-10-27 14:42:32.514 UTC: 	 Retrieving username from CRIC...
+DEBUG 2021-10-27 14:42:33.784 UTC: 	 username is alkaloge
+DEBUG 2021-10-27 14:42:33.787 UTC: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2021-10-27 14:42:33.787 UTC: 	 using alkaloge_CRAB as credential login name
+DEBUG 2021-10-27 14:42:34.691 UTC: 	 Executing : 
+ command : myproxy-info -l alkaloge_CRAB -s myproxy.cern.ch
+ output : username: alkaloge_CRAB
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=alkaloge/CN=654885/CN=Alexis Kalogeropoulos
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  timeleft: 719:53:24  (30.0 days)
+
+ error: 
+ retcode : 0
+DEBUG 2021-10-27 14:42:34.692 UTC: 	 Myproxy is valid: 2591604
+DEBUG 2021-10-27 14:42:34.692 UTC: 	 Result of myproxy credential check:
+  Credential exists on myproxy: username: 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1  - validity: 29 days, 23:53:17
+  Credential exists on myproxy: username: alkaloge_CRAB  - validity: 29 days, 23:53:24
+DEBUG 2021-10-27 14:42:34.692 UTC: 	 Command use: uploadlog
+DEBUG 2021-10-27 14:42:34.692 UTC: 	 Options use: ['Crab_Jobs/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/']
+DEBUG 2021-10-27 14:42:35.311 UTC: 	 CRABClient version: v3.210825
+DEBUG 2021-10-27 14:42:35.311 UTC: 	 Instance is prod
+DEBUG 2021-10-27 14:42:35.311 UTC: 	 Server base url is cmsweb.cern.ch
+DEBUG 2021-10-27 14:42:35.311 UTC: 	 Command api workflow
+DEBUG 2021-10-27 14:42:35.311 UTC: 	 uploadlog started
+DEBUG 2021-10-27 14:42:35.311 UTC: 	 crab.log exists
+INFO 2021-10-27 14:42:35.311 UTC: 	 Couldn't get information from .requestcache (file likely not created due to submission failure), try
+'crab uploadlog --logpath=<path-to-log-file-in-project-dir>'
+INFO 2021-10-27 14:42:35.313 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:42:42.717 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:42:42.717 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:42:42.717 UTC: 	 Executing command: 'uploadlog'
+DEBUG 2021-10-27 14:42:42.719 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-27 14:42:42.723 UTC: 	 Error: Crab_Jobs/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab.log is not a valid CRAB project directory.
+ERROR 2021-10-27 14:42:42.723 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: Crab_Jobs/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab.log is not a valid CRAB project directory.
+INFO 2021-10-27 14:42:42.725 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:42:58.925 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:42:58.925 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:42:58.925 UTC: 	 Executing command: 'uploadlog'
+DEBUG 2021-10-27 14:42:58.929 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-27 14:42:58.936 UTC: 	 Error: /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/Crab_Jobs/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab.log is not a valid CRAB project directory.
+ERROR 2021-10-27 14:42:58.936 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/Crab_Jobs/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab.log is not a valid CRAB project directory.
+INFO 2021-10-27 14:42:58.938 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 14:43:10.187 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 14:43:10.187 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 14:43:10.187 UTC: 	 Executing command: 'uploadlog'
+DEBUG 2021-10-27 14:43:10.187 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-27 14:43:10.188 UTC: 	 Error: /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/Crab_Jobs/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab.log is not a valid CRAB project directory.
+ERROR 2021-10-27 14:43:10.188 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/Crab_Jobs/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/crab.log is not a valid CRAB project directory.
+INFO 2021-10-27 14:43:10.190 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 15:59:52.007 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 15:59:52.007 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 15:59:52.008 UTC: 	 Executing command: 'status'
+DEBUG 2021-10-27 15:59:52.008 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-27 15:59:52.041 UTC: 	 Error: crab_QCD_HT100T is not a valid CRAB project directory.
+ERROR 2021-10-27 15:59:52.041 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_QCD_HT100T is not a valid CRAB project directory.
+INFO 2021-10-27 15:59:52.043 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:17.664 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:17.664 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:17.664 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:17.665 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:17.667 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-27 22:51:17.668 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:17.674 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:17.675 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:17.675 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:17.677 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:17.912 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:17.912 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:17.912 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:17.912 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:17.922 UTC: 	 Will use CRAB configuration file crab3_QCD200.py
+DEBUG 2021-10-27 22:51:17.922 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:17.929 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:17.929 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:17.930 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:17.931 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:18.173 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:18.174 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:18.174 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:18.174 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:18.179 UTC: 	 Will use CRAB configuration file crab3_QCD300.py
+DEBUG 2021-10-27 22:51:18.179 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:18.186 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:18.186 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT300to500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:18.186 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT300to500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:18.188 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:18.426 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:18.427 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:18.427 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:18.427 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:18.428 UTC: 	 Will use CRAB configuration file crab3_QCD500.py
+DEBUG 2021-10-27 22:51:18.428 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:18.435 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:18.436 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT500to700_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:18.436 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT500to700_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:18.438 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:18.685 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:18.685 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:18.685 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:18.685 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:18.687 UTC: 	 Will use CRAB configuration file crab3_QCD700.py
+DEBUG 2021-10-27 22:51:18.687 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:18.694 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:18.694 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:18.695 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:18.696 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:18.938 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:18.938 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:18.938 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:18.938 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:18.939 UTC: 	 Will use CRAB configuration file crab3_QCD1000.py
+DEBUG 2021-10-27 22:51:18.939 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:18.947 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:18.947 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:18.947 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:18.949 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:19.193 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:19.194 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:19.194 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:19.194 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:19.200 UTC: 	 Will use CRAB configuration file crab3_QCD1500.py
+DEBUG 2021-10-27 22:51:19.200 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:19.208 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:19.208 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:19.208 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:19.210 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:19.451 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:19.451 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:19.451 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:19.451 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:19.455 UTC: 	 Will use CRAB configuration file crab3_QCD2000.py
+DEBUG 2021-10-27 22:51:19.455 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:19.462 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:19.463 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:19.463 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:19.464 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:19.706 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:19.706 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:19.706 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:19.706 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:19.713 UTC: 	 Will use CRAB configuration file crab3_WJets70.py
+DEBUG 2021-10-27 22:51:19.713 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:19.720 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:19.720 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:19.720 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:19.722 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:19.958 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:19.958 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:19.958 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:19.958 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:19.962 UTC: 	 Will use CRAB configuration file crab3_WJets100.py
+DEBUG 2021-10-27 22:51:19.962 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:19.971 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:19.971 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:19.971 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:19.973 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:20.208 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:20.209 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:20.209 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:20.209 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:20.210 UTC: 	 Will use CRAB configuration file crab3_WJets200.py
+DEBUG 2021-10-27 22:51:20.210 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:20.219 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:20.219 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:20.219 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:20.221 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:20.482 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:20.483 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:20.483 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:20.483 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:20.485 UTC: 	 Will use CRAB configuration file crab3_WJets400.py
+DEBUG 2021-10-27 22:51:20.485 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:20.493 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:20.493 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:20.493 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:20.495 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:20.743 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:20.743 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:20.743 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:20.743 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:20.748 UTC: 	 Will use CRAB configuration file crab3_WJets600.py
+DEBUG 2021-10-27 22:51:20.748 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:20.756 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:20.756 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:20.756 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:20.758 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:21.020 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:21.021 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:21.021 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:21.021 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:21.027 UTC: 	 Will use CRAB configuration file crab3_WJets800.py
+DEBUG 2021-10-27 22:51:21.027 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:21.036 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:21.036 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:21.036 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:21.038 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:21.329 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:21.330 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:21.330 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:21.330 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:21.336 UTC: 	 Will use CRAB configuration file crab3_WJets2500.py
+DEBUG 2021-10-27 22:51:21.336 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:21.344 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:21.344 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-2500ToInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:21.344 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-2500ToInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:21.346 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:51:21.590 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:51:21.591 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:51:21.591 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-27 22:51:21.591 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-27 22:51:21.597 UTC: 	 Will use CRAB configuration file crab3_TTGJets.py
+DEBUG 2021-10-27 22:51:21.597 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-27 22:51:21.604 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-27 22:51:21.605 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTGJets_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-27 22:51:21.605 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTGJets_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-27 22:51:21.606 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-27 22:52:10.016 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-27 22:52:10.017 UTC: 	 Running on: Linux cmslpc132.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-27 22:52:10.017 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-27 22:52:10.018 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-27 22:52:10.023 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-27 22:52:10.023 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-27 22:52:10.024 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:54:36.001 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:54:36.001 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:54:36.001 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:54:36.010 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:54:36.030 UTC: 	 Will use CRAB configuration file crab3_QCD100.py
+DEBUG 2021-10-28 07:54:36.030 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:54:36.039 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:54:36.040 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:54:36.040 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:54:36.042 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:55:06.560 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:55:06.561 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:55:06.561 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:55:06.561 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:55:06.563 UTC: 	 Will use CRAB configuration file crab3_QCD200.py
+DEBUG 2021-10-28 07:55:06.563 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:55:06.572 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:55:06.573 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:55:06.573 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:55:06.576 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:55:37.285 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:55:37.286 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:55:37.286 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:55:37.286 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:55:37.288 UTC: 	 Will use CRAB configuration file crab3_QCD300.py
+DEBUG 2021-10-28 07:55:37.288 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:55:37.297 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:55:37.298 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT300to500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:55:37.299 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT300to500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:55:37.301 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:56:07.787 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:56:07.787 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:56:07.787 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:56:07.788 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:56:07.790 UTC: 	 Will use CRAB configuration file crab3_QCD500.py
+DEBUG 2021-10-28 07:56:07.790 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:56:07.798 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:56:07.799 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT500to700_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:56:07.799 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT500to700_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:56:07.801 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:56:38.546 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:56:38.546 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:56:38.546 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:56:38.547 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:56:38.549 UTC: 	 Will use CRAB configuration file crab3_QCD700.py
+DEBUG 2021-10-28 07:56:38.549 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:56:38.557 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:56:38.558 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:56:38.558 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:56:38.561 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:57:09.088 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:57:09.088 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:57:09.089 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:57:09.089 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:57:09.091 UTC: 	 Will use CRAB configuration file crab3_QCD1000.py
+DEBUG 2021-10-28 07:57:09.091 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:57:09.100 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:57:09.101 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:57:09.101 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:57:09.103 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:57:39.817 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:57:39.817 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:57:39.818 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:57:39.818 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:57:39.819 UTC: 	 Will use CRAB configuration file crab3_QCD1500.py
+DEBUG 2021-10-28 07:57:39.820 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:57:39.828 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:57:39.829 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:57:39.829 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:57:39.831 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:58:10.357 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:58:10.357 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:58:10.357 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:58:10.357 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:58:10.359 UTC: 	 Will use CRAB configuration file crab3_QCD2000.py
+DEBUG 2021-10-28 07:58:10.360 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:58:10.384 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:58:10.384 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:58:10.385 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:58:10.387 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:58:41.157 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:58:41.157 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:58:41.158 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:58:41.158 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:58:41.160 UTC: 	 Will use CRAB configuration file crab3_WJets70.py
+DEBUG 2021-10-28 07:58:41.160 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:58:41.169 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:58:41.169 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:58:41.169 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:58:41.172 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:59:11.702 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:59:11.702 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:59:11.702 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:59:11.702 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:59:11.705 UTC: 	 Will use CRAB configuration file crab3_WJets100.py
+DEBUG 2021-10-28 07:59:11.705 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:59:11.714 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:59:11.715 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:59:11.715 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:59:11.717 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 07:59:42.504 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 07:59:42.505 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 07:59:42.505 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 07:59:42.505 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 07:59:42.507 UTC: 	 Will use CRAB configuration file crab3_WJets200.py
+DEBUG 2021-10-28 07:59:42.507 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 07:59:42.515 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 07:59:42.516 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 07:59:42.516 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 07:59:42.518 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:00:13.140 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:00:13.140 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:00:13.140 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:00:13.140 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:00:13.145 UTC: 	 Will use CRAB configuration file crab3_WJets400.py
+DEBUG 2021-10-28 08:00:13.145 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:00:13.154 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:00:13.155 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:00:13.155 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:00:13.158 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:00:43.827 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:00:43.828 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:00:43.828 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:00:43.828 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:00:43.830 UTC: 	 Will use CRAB configuration file crab3_WJets600.py
+DEBUG 2021-10-28 08:00:43.830 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:00:43.838 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:00:43.839 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:00:43.839 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:00:43.841 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:01:14.344 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:01:14.344 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:01:14.344 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:01:14.344 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:01:14.347 UTC: 	 Will use CRAB configuration file crab3_WJets800.py
+DEBUG 2021-10-28 08:01:14.347 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:01:14.355 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:01:14.355 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:01:14.355 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:01:14.358 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:01:45.130 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:01:45.130 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:01:45.130 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:01:45.130 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:01:45.132 UTC: 	 Will use CRAB configuration file crab3_WJets1200.py
+DEBUG 2021-10-28 08:01:45.132 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:01:45.141 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:01:45.142 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-1200To2500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:01:45.142 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-1200To2500_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:01:45.144 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:02:15.667 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:02:15.667 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:02:15.667 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:02:15.667 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:02:15.670 UTC: 	 Will use CRAB configuration file crab3_WJets2500.py
+DEBUG 2021-10-28 08:02:15.670 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:02:15.679 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:02:15.680 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-2500ToInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:02:15.680 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-2500ToInf_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:02:15.682 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:02:46.431 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:02:46.431 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:02:46.431 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:02:46.431 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:02:46.433 UTC: 	 Will use CRAB configuration file crab3_TTGJets.py
+DEBUG 2021-10-28 08:02:46.433 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:02:46.441 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:02:46.442 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTGJets_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:02:46.442 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTGJets_TuneCP5_13TeV-amcatnloFXFX-madspin-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:02:46.444 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:03:16.941 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:03:16.941 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:03:16.941 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:03:16.941 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:03:16.943 UTC: 	 Will use CRAB configuration file crab3_TGJets.py
+DEBUG 2021-10-28 08:03:16.943 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:03:16.953 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:03:16.954 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TGJets_TuneCP5_13TeV_amcatnlo_madspin_pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:03:16.954 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TGJets_TuneCP5_13TeV_amcatnlo_madspin_pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:03:16.956 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:03:47.654 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:03:47.654 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:03:47.654 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:03:47.654 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:03:47.656 UTC: 	 Will use CRAB configuration file crab3_WGToLNuG.py
+DEBUG 2021-10-28 08:03:47.656 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:03:47.665 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:03:47.665 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WGToLNuG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:03:47.665 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WGToLNuG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:03:47.668 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:04:18.187 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:04:18.188 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:04:18.188 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:04:18.188 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:04:18.190 UTC: 	 Will use CRAB configuration file crab3_ZGTo2LG.py
+DEBUG 2021-10-28 08:04:18.190 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:04:18.199 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:04:18.200 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:04:18.200 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_ZGTo2LG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:04:18.202 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:04:49.127 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:04:49.127 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:04:49.127 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:04:49.127 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:04:49.129 UTC: 	 Will use CRAB configuration file crab3_ZGTo2NuG.py
+DEBUG 2021-10-28 08:04:49.129 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:04:49.137 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:04:49.138 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_ZGTo2NuG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:04:49.138 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_ZGTo2NuG_TuneCUETP8M1_13TeV-amcatnloFXFX-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:04:49.140 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-28 08:07:33.589 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-28 08:07:33.590 UTC: 	 Running on: Linux cmslpc167.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-28 08:07:33.590 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-28 08:07:33.591 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-28 08:07:33.594 UTC: 	 Will use CRAB configuration file crab3_TTJets_SingleLeptFromT.py
+DEBUG 2021-10-28 08:07:33.594 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-28 08:07:33.621 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-28 08:07:33.622 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_SingleLeptFromTbar_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-28 08:07:33.622 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_SingleLeptFromTbar_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-28 08:07:33.625 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-29 21:01:52.332 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-29 21:01:52.332 UTC: 	 Running on: Linux cmslpc160.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-29 21:01:52.333 UTC: 	 Executing command: 'status'
+DEBUG 2021-10-29 21:01:52.333 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-29 21:01:52.335 UTC: 	 Error: W4 is not a valid CRAB project directory.
+ERROR 2021-10-29 21:01:52.335 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: W4 is not a valid CRAB project directory.
+INFO 2021-10-29 21:01:52.337 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 16:36:53.273 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 16:36:53.273 UTC: 	 Running on: Linux cmslpc121.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 16:36:53.273 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 16:36:53.274 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 16:36:53.277 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_W1JetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 16:36:53.277 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_W1JetsToLNu_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 16:36:53.279 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:14:00.301 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:14:00.301 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:14:00.301 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:14:00.302 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:14:00.305 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:14:00.305 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1000to1500_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:14:00.307 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:14:15.647 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:14:15.647 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:14:15.647 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:14:15.648 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:14:15.650 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:14:15.650 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:14:15.652 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:14:31.001 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:14:31.001 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:14:31.001 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:14:31.002 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:14:31.004 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:14:31.004 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT1500to2000_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:14:31.006 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:14:46.350 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:14:46.350 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:14:46.350 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:14:46.351 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:14:46.353 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:14:46.353 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT2000toInf_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:14:46.355 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:15:02.117 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:15:02.117 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:15:02.117 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:15:02.117 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:15:02.119 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:15:02.120 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT200to300_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:15:02.122 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:15:17.462 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:15:17.463 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:15:17.463 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:15:17.463 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:15:17.465 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT300to500_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:15:17.465 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT300to500_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:15:17.467 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:15:32.830 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:15:32.830 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:15:32.830 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:15:32.830 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:15:32.833 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT500to700_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:15:32.833 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT500to700_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:15:32.835 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:15:48.196 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:15:48.197 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:15:48.197 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:15:48.197 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:15:48.199 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:15:48.199 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_QCD_HT700to1000_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:15:48.201 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:16:04.041 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:16:04.042 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:16:04.042 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:16:04.042 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:16:04.044 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_DiLept_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:16:04.044 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_DiLept_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:16:04.046 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:16:19.394 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:16:19.394 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:16:19.394 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:16:19.394 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:16:19.396 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_SingleLeptFromTbar_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:16:19.397 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_SingleLeptFromTbar_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:16:19.398 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:16:34.755 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:16:34.755 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:16:34.755 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:16:34.756 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:16:34.758 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:16:34.758 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:16:34.760 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:16:50.114 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:16:50.114 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:16:50.114 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:16:50.114 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:16:50.117 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-1200To2500_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:16:50.117 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-1200To2500_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:16:50.119 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:17:05.930 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:17:05.930 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:17:05.930 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:17:05.930 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:17:05.934 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:17:05.934 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-200To400_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:17:05.936 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:17:21.284 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:17:21.285 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:17:21.285 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:17:21.285 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:17:21.287 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-2500ToInf_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:17:21.287 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-2500ToInf_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:17:21.289 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:17:36.640 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:17:36.640 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:17:36.640 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:17:36.641 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:17:36.643 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:17:36.644 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-400To600_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:17:36.645 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:17:51.987 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:17:51.988 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:17:51.988 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:17:51.988 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:17:51.991 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:17:51.991 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-600To800_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:17:51.992 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:18:07.856 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:18:07.857 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:18:07.857 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:18:07.857 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:18:07.859 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:18:07.860 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-70To100_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:18:07.861 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-30 23:18:23.238 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-30 23:18:23.239 UTC: 	 Running on: Linux cmslpc140.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-30 23:18:23.239 UTC: 	 Executing command: 'kill'
+DEBUG 2021-10-30 23:18:23.239 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-30 23:18:23.242 UTC: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8
+ERROR 2021-10-30 23:18:23.242 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 650, in validateOptions
+    self.loadLocalCache()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 512, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-800To1200_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-10-30 23:18:23.244 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-31 10:31:42.521 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-31 10:31:42.521 UTC: 	 Running on: Linux cmslpc150.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-31 10:31:42.521 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-31 10:31:42.540 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-31 10:31:42.545 UTC: 	 Will use CRAB configuration file crab3_WJets100.py
+DEBUG 2021-10-31 10:31:42.546 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-31 10:31:42.548 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-31 10:31:42.549 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-31 10:31:42.549 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-31 10:31:42.550 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-31 10:41:37.525 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-31 10:41:37.526 UTC: 	 Running on: Linux cmslpc150.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-31 10:41:37.526 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-31 10:41:37.526 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-31 10:41:37.533 UTC: 	 Will use CRAB configuration file crab3_WJets100.py
+DEBUG 2021-10-31 10:41:37.533 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-31 10:41:37.541 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-31 10:41:37.541 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-31 10:41:37.541 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_WJetsToLNu_HT-100To200_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-31 10:41:37.544 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log
+DEBUG 2021-10-31 10:48:31.169 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-31 10:48:31.169 UTC: 	 Running on: Linux cmslpc150.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-31 10:48:31.169 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-31 10:48:31.170 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-31 10:48:31.172 UTC: 	 Will use CRAB configuration file crab3_TTJets_SingleLeptFromT.py
+DEBUG 2021-10-31 10:48:31.172 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-10-31 10:48:31.179 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+ERROR 2021-10-31 10:48:31.180 UTC: 	 Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_SingleLeptFromTbar_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+ERROR 2021-10-31 10:48:31.180 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 315, in __init__
+    getattr(self.configuration.General, 'requestName', None))
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/ClientUtilities.py", line 394, in createWorkArea
+    raise ConfigException("Working area '%s' already exists \nPlease change the requestName in the config file" % fullpath)
+ConfigException: Working area '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab_TTJets_SingleLeptFromTbar_TuneCP5_13TeV-madgraphMLM-pythia8' already exists 
+Please change the requestName in the config file
+INFO 2021-10-31 10:48:31.182 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_MC/crab.log

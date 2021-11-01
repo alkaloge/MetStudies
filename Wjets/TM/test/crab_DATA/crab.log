@@ -1,0 +1,48 @@
+DEBUG 2021-10-31 10:43:44.693 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-31 10:43:44.694 UTC: 	 Running on: Linux cmslpc150.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-31 10:43:44.694 UTC: 	 Executing command: 'submit'
+DEBUG 2021-10-31 10:43:44.694 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-10-31 10:43:44.696 UTC: 	 Will use CRAB configuration file crab3_2018Av2.py
+DEBUG 2021-10-31 10:43:44.696 UTC: 	 Loading CRAB configuration file.
+ERROR 2021-10-31 10:43:44.703 UTC: 	 Error while loading CRAB configuration:
+cannot import name getUsernameFromSiteDB
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+ERROR 2021-10-31 10:43:44.703 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/submit.py", line 34, in __init__
+    SubCommand.__init__(self, logger, cmdargs, disable_interspersed_args=True)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 311, in __init__
+    self.loadConfig(self.options.config, self.args)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 90, in loadConfig
+    raise ConfigurationException(configmsg)
+ConfigurationException: Error while loading CRAB configuration:
+cannot import name getUsernameFromSiteDB
+Please refer to https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3CommonErrors#Syntax_error_in_CRAB_configurati
+See the ./crab.log file for more details.
+The documentation about the CRAB configuration file can be found in https://twiki.cern.ch/twiki/bin/view/CMSPublic/CRAB3ConfigurationFile
+INFO 2021-10-31 10:43:44.706 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_DATA/crab.log
+DEBUG 2021-10-31 11:31:05.988 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-10-31 11:31:05.988 UTC: 	 Running on: Linux cmslpc150.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-10-31 11:31:05.988 UTC: 	 Executing command: 'status'
+DEBUG 2021-10-31 11:31:05.989 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+ERROR 2021-10-31 11:31:05.998 UTC: 	 Error: crab_SingleMuon2018 is not a valid CRAB project directory.
+ERROR 2021-10-31 11:31:05.998 UTC: 	 Caught ClientException exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 151, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/bin/crab", line 136, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/status.py", line 39, in __init__
+    SubCommand.__init__(self, logger, cmdargs)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 270, in __init__
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/share/cms/crab-prod/v3.210825.00/lib/CRABClient/Commands/SubCommand.py", line 646, in validateOptions
+    raise ConfigurationException(msg)
+ConfigurationException: [91mError[0m: crab_SingleMuon2018 is not a valid CRAB project directory.
+INFO 2021-10-31 11:31:06.000 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_4/src/GammaJets/TM/test/crab_DATA/crab.log
