@@ -44,7 +44,10 @@ git cms-addpkg PhysicsTools/PatUtils
 
 git cms-addpkg CommonTools/Utils
 
-svn export https://github.com/pallabidas/MetStudiesMiniAOD/trunk/GammaJets
+#svn export https://github.com/pallabidas/MetStudiesMiniAOD/trunk/GammaJets
+git clone -b myWjets https://github.com/alkaloge/MetStudies.git
+mv MetStudies/Wjets .
+rm -fr MetStudies
 
 scram b -j 8
 ```

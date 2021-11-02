@@ -56,17 +56,20 @@ void electronInfo::Fill(const edm::Event& iEvent, math::XYZPoint& pv, reco::Vert
     pfIsoPUSubtracted = std::max( 0.0, pfIsoNeutral - correction );
     relIsoEl = (pfIsoCharged + pfIsoPUSubtracted)/electron->pt();
 
+    //cout<<" electrons===========================> "<<electron->electronID("mvaEleID-Fall17-iso-V2-wp90")<< " " <<    electron->electronID("cutBasedElectronID-Fall17-94X-V2-veto")<<endl;
+
     relIsoElDB = (pfIsoCharged + std::max( 0.0, pfIsoNeutral - 0.5*electron->pfIsolationVariables().sumPUPt))/electron->pt();
     // Selection of veto electrons (Fall17)
     if (electron->pt() > 10 && (scEta < 1.442 || scEta > 1.5660) && scEta < 2.5  ) {
       idPreselection =
-         electron->electronID("mvaEleID-Fall17-iso-V2-wp90") && 
-         relIsoEl < 0.2 && 
-         numMissingHits == 0 &&
+         //electron->electronID("mvaEleID-Fall17-iso-V2-wp90") && 
+         relIsoEl < 0.3 && 
+         numMissingHits <2 &&
          fabs(electron->charge())==1 &&
          electron->passConversionVeto() &&
          fabs(dxy) < 0.045 &&
          fabs(dz) < 0.2;
+      //cout<< " idPresection " << scEta<< " " <<electron->pt() << " "<<relIsoEl<<" " <<electron->electronID("mvaEleID-Fall17-iso-V2-wp90")<< " " <<    electron->electronID("cutBasedElectronID-Fall17-94X-V2-veto")<<endl;
         
     }
     /*
@@ -113,6 +116,7 @@ void electronInfo::SetBranches(){
   AddBranch(&relIsoElDB      ,"relIsoElDB");
   AddBranch(&dxy      ,"Electron_dxy");
   AddBranch(&dz      ,"Electron_dz");
+  //AddBranch(&numMissingHits      ,"Electron_MissingHits");
   if(debug_)    std::cout<<"set branches"<<std::endl;
 }
 
