@@ -31,6 +31,7 @@ process.jec = cms.ESSource('PoolDBESSource',
     )
 )
 process.es_prefer_jec = cms.ESPrefer('PoolDBESSource', 'jec')
+updatedTauName = "slimmedTausNewID" #name of pat::Tau collection with new tau-Ids
 
 process.load('JetMETCorrections.Configuration.DefaultJEC_cff')
 from PhysicsTools.PatAlgos.tools.jetTools import updateJetCollection
@@ -78,6 +79,15 @@ process.ecalBadCalibReducedMINIAODFilter = cms.EDFilter(
     debug            = cms.bool(False)
     )
 
+#byVVVLooseDeepTau2017v2p1VSjet
+import RecoTauTag.RecoTau.tools.runTauIdMVA as tauIdConfig
+tauIdEmbedder = tauIdConfig.TauIDEmbedder(process, cms, debug = False,
+                    updatedTauName = updatedTauName,
+                    toKeep = ["deepTau2017v2p1", #deepTau TauIDs
+                               ])
+tauIdEmbedder.runTauID()
+
+
 #input to analyzer
 process.content = cms.EDAnalyzer("EventContentAnalyzer")
 process.demo = cms.EDAnalyzer('TM',
@@ -113,7 +123,8 @@ process.demo = cms.EDAnalyzer('TM',
                               fillpfjetInfo_       = cms.untracked.bool(True),
                               pfjetLabel_          = cms.untracked.InputTag("selectedUpdatedPatJetsUpdatedJEC"),
                               filltauInfo_         = cms.untracked.bool(True),
-                              tauLabel_            = cms.untracked.InputTag("slimmedTaus"),                              
+                              #tauLabel_            = cms.untracked.InputTag("slimmedTaus"),                              
+                              tauLabel_            = cms.untracked.InputTag("slimmedTausNewID"),                              
                               )
 
 process.TFileService = cms.Service("TFileService",
@@ -151,6 +162,8 @@ process.p = cms.Path(
     process.fullPatMetSequence*
     process.puppiMETSequence*
     process.fullPatMetSequencePuppi*
+    process.rerunMvaIsolationSequence * 
+    getattr(process,updatedTauName) *
     process.demo
     )
 
@@ -159,7 +172,7 @@ process.p = cms.Path(
 process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32(1)
 
 # process number of events
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100) )
 
 process.schedule=cms.Schedule(process.p)
 

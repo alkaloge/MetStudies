@@ -1,0 +1,225 @@
+ ##################################################################### 
+ # WARNING: the module CondCore.DBCommon.CondDBSetup is deprecated.  # 
+ # Please import CondCore.CondDB.CondDB_cfi                          # 
+ ##################################################################### 
+DEBUG 2021-11-01 22:51:03.131 UTC: 	 CRAB Client version: v3.210825
+DEBUG 2021-11-01 22:51:03.131 UTC: 	 Running on: Linux cmslpc178.fnal.gov 3.10.0-1160.36.2.el7.x86_64 #1 SMP Mon Jul 26 08:21:44 CDT 2021 x86_64 x86_64 x86_64 GNU/Linux - Scientific Linux 7.9 (Nitrogen)
+DEBUG 2021-11-01 22:51:03.131 UTC: 	 Executing command: 'submit'
+DEBUG 2021-11-01 22:51:03.138 UTC: 	 Found CRAB cache file /uscms/home/alkaloge/.crab3
+INFO 2021-11-01 22:51:03.165 UTC: 	 Will use CRAB configuration file crab3_TTJets.py
+DEBUG 2021-11-01 22:51:03.165 UTC: 	 Loading CRAB configuration file.
+DEBUG 2021-11-01 22:51:03.171 UTC: 	 Will use CRAB Analysis plugin (i.e. will run an analysis job type).
+DEBUG 2021-11-01 22:51:03.217 UTC: 	 Checking credentials
+DEBUG 2021-11-01 22:51:03.222 UTC: 	 Found proxy file /uscms/home/alkaloge/x509up_u53998
+DEBUG 2021-11-01 22:51:03.222 UTC: 	 Getting proxy life time left
+DEBUG 2021-11-01 22:51:03.325 UTC: 	 Executing : 
+ command : voms-proxy-info -file /uscms/home/alkaloge/x509up_u53998 -timeleft
+ output : 511250
+
+ error: 
+ retcode : 0
+DEBUG 2021-11-01 22:51:03.428 UTC: 	 Executing : 
+ command : voms-proxy-info -file /uscms/home/alkaloge/x509up_u53998 -actimeleft
+ output : 511250
+
+ error: 
+ retcode : 0
+DEBUG 2021-11-01 22:51:03.429 UTC: 	 Proxy valid for 142:00:50 hours
+DEBUG 2021-11-01 22:51:03.533 UTC: 	 Executing : 
+ command : env X509_USER_PROXY=/uscms/home/alkaloge/x509up_u53998 voms-proxy-info -fqan
+ output : /cms/Role=NULL/Capability=NULL
+/cms/dcms/Role=NULL/Capability=NULL
+
+ error: 
+ retcode : 0
+DEBUG 2021-11-01 22:51:04.175 UTC: 	 Registering user credentials for server /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+DEBUG 2021-11-01 22:51:04.288 UTC: 	 Executing : 
+ command : voms-proxy-info -file /uscms/home/alkaloge/x509up_u53998 -identity
+ output : /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=alkaloge/CN=654885/CN=Alexis Kalogeropoulos
+
+ error: 
+ retcode : 0
+DEBUG 2021-11-01 22:51:04.296 UTC: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2021-11-01 22:51:04.296 UTC: 	 using 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1 as credential login name
+DEBUG 2021-11-01 22:51:05.203 UTC: 	 Executing : 
+ command : myproxy-info -l 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1 -s myproxy.cern.ch
+ output : username: 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=alkaloge/CN=654885/CN=Alexis Kalogeropoulos
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  timeleft: 591:44:44  (24.7 days)
+
+ error: 
+ retcode : 0
+DEBUG 2021-11-01 22:51:05.204 UTC: 	 Myproxy is valid: 2130284
+DEBUG 2021-11-01 22:51:05.205 UTC: 	 Retrieving username ...
+DEBUG 2021-11-01 22:51:05.205 UTC: 	 Retrieving username from CRIC...
+DEBUG 2021-11-01 22:51:59.490 UTC: 	 username is alkaloge
+DEBUG 2021-11-01 22:51:59.497 UTC: 	 Getting myproxy life time left for myproxy.cern.ch
+DEBUG 2021-11-01 22:51:59.497 UTC: 	 using alkaloge_CRAB as credential login name
+DEBUG 2021-11-01 22:52:00.604 UTC: 	 Executing : 
+ command : myproxy-info -l alkaloge_CRAB -s myproxy.cern.ch
+ output : username: alkaloge_CRAB
+owner: /DC=ch/DC=cern/OU=Organic Units/OU=Users/CN=alkaloge/CN=654885/CN=Alexis Kalogeropoulos
+  renewal policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  trusted retrieval policy: /DC=ch/DC=cern/OU=computers/CN=crab-(preprod|prod|dev)-tw(02|01).cern.ch|/DC=ch/DC=cern/OU=computers/CN=stefanov(m|m2).cern.ch
+  timeleft: 591:43:58  (24.7 days)
+
+ error: 
+ retcode : 0
+DEBUG 2021-11-01 22:52:00.604 UTC: 	 Myproxy is valid: 2130238
+DEBUG 2021-11-01 22:52:00.604 UTC: 	 Result of myproxy credential check:
+  Credential exists on myproxy: username: 3101ccd60cac63971b7d3ffc4d4a5343b3de0ff1  - validity: 24 days, 15:44:44
+  Credential exists on myproxy: username: alkaloge_CRAB  - validity: 24 days, 15:43:58
+DEBUG 2021-11-01 22:52:00.604 UTC: 	 Command use: submit
+DEBUG 2021-11-01 22:52:00.604 UTC: 	 Options use: ['crab3_TTJets.py']
+DEBUG 2021-11-01 22:52:01.251 UTC: 	 CRABClient version: v3.210825
+DEBUG 2021-11-01 22:52:01.251 UTC: 	 Instance is prod
+DEBUG 2021-11-01 22:52:01.251 UTC: 	 Server base url is cmsweb.cern.ch
+DEBUG 2021-11-01 22:52:01.251 UTC: 	 Command api workflow
+DEBUG 2021-11-01 22:52:01.251 UTC: 	 Started submission
+DEBUG 2021-11-01 22:52:01.251 UTC: 	 Working on /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8
+DEBUG 2021-11-01 22:52:02.074 UTC: 	 Loading required information from the environment
+DEBUG 2021-11-01 22:52:02.074 UTC: 	 Found CMSSW_10_6_5 for slc7_amd64_gcc820 with base /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5
+DEBUG 2021-11-01 22:52:02.074 UTC: 	 Loading required information from the environment
+DEBUG 2021-11-01 22:52:02.074 UTC: 	 Found CMSSW_10_6_5 for slc7_amd64_gcc820 with base /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5
+DEBUG 2021-11-01 22:52:02.074 UTC: 	 UNIQUE NAME: tarUUID 5e5694e3-9f6f-43ea-9d01-927fde5df28e 
+DEBUG 2021-11-01 22:52:02.074 UTC: 	 self.config: from WMCore.Configuration import Configuration
+config = Configuration()
+config.section_('General')
+config.General.transferOutputs = True
+config.General.transferLogs = True
+config.General.requestName = 'TTJets_TuneCP5_13TeV-madgraphMLM-pythia8'
+config.section_('JobType')
+config.JobType.outputFiles = ['histo.root']
+config.JobType.numCores = 4
+config.JobType.maxMemoryMB = 9000
+config.JobType.inputFiles = ['Autumn18_V19_MC.db']
+config.JobType.pluginName = 'Analysis'
+config.JobType.allowUndistributedCMSSW = True
+config.JobType.psetName = '/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/treemaker_cfg_mc2018.py'
+config.JobType.maxJobRuntimeMin = 300
+config.section_('Data')
+config.Data.inputDataset = '/TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/MINIAODSIM'
+config.Data.unitsPerJob = 1
+config.Data.splitting = 'FileBased'
+config.Data.outLFNDirBase = '/store/group/lpcsusyhiggs/ntuples/MetStudies/2018/TTJets_TuneCP5_13TeV-madgraphMLM-pythia8'
+config.section_('Site')
+config.Site.storageSite = 'T3_US_FNALLPC'
+config.section_('User')
+config.section_('Debug')
+
+DEBUG 2021-11-01 22:52:02.074 UTC: 	 self.config.JobType.psetName: /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/treemaker_cfg_mc2018.py
+INFO 2021-11-01 22:52:02.075 UTC: 	 Importing CMSSW configuration /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/treemaker_cfg_mc2018.py
+INFO 2021-11-01 22:52:21.393 UTC: 	 Finished importing CMSSW configuration /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/treemaker_cfg_mc2018.py
+INFO 2021-11-01 22:52:21.393 UTC: 	 You are requesting more than 1 core per job. Please make sure that your multi-threaded code is thread-safe and CPU-efficient, and request the correct amount of memory since the default 'maxMemoryMB' value is meant for single core jobs.
+DEBUG 2021-11-01 22:52:21.393 UTC: 	 Writing CMSSW configuration to /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/inputs/PSet.py
+DEBUG 2021-11-01 22:52:22.572 UTC: 	 The following EDM output files will be collected: []
+DEBUG 2021-11-01 22:52:22.572 UTC: 	 The following TFile output files will be collected: ['histo.root']
+DEBUG 2021-11-01 22:52:22.572 UTC: 	 The following user output files (not listed as PoolOuputModule or TFileService in the CMSSW PSet) will be collected: 
+DEBUG 2021-11-01 22:52:22.573 UTC: 	 Loading required information from the environment
+DEBUG 2021-11-01 22:52:22.573 UTC: 	 Found CMSSW_10_6_5 for slc7_amd64_gcc820 with base /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5
+DEBUG 2021-11-01 22:52:22.573 UTC: 	 Making tarball in /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/inputs/5e5694e3-9f6f-43ea-9d01-927fde5df28edefault.tgz
+DEBUG 2021-11-01 22:52:22.574 UTC: 	 Checking directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/lib
+DEBUG 2021-11-01 22:52:22.574 UTC: 	 Adding directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/lib to tarball
+DEBUG 2021-11-01 22:52:25.838 UTC: 	 Checking directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/biglib
+DEBUG 2021-11-01 22:52:25.838 UTC: 	 Adding directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/biglib to tarball
+DEBUG 2021-11-01 22:52:25.840 UTC: 	 Checking directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/module
+DEBUG 2021-11-01 22:52:25.844 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/RecoEgamma/EgammaTools/data to tarball
+DEBUG 2021-11-01 22:52:26.000 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/RecoEgamma/EgammaTools/interface to tarball
+DEBUG 2021-11-01 22:52:26.072 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/EgammaAnalysis/ElectronTools/interface to tarball
+DEBUG 2021-11-01 22:52:26.104 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/RecoMET/METFilters/data to tarball
+DEBUG 2021-11-01 22:52:26.108 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/RecoMET/METFilters/interface to tarball
+DEBUG 2021-11-01 22:52:26.116 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/PhysicsTools/PatAlgos/interface to tarball
+DEBUG 2021-11-01 22:52:26.218 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/PhysicsTools/PatUtils/data to tarball
+DEBUG 2021-11-01 22:52:26.750 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/PhysicsTools/PatUtils/interface to tarball
+DEBUG 2021-11-01 22:52:27.001 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/CommonTools/Utils/interface to tarball
+DEBUG 2021-11-01 22:52:27.108 UTC: 	 Adding data directory /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/interface to tarball
+DEBUG 2021-11-01 22:52:27.285 UTC: 	 Adding file Autumn18_V19_MC.db to tarball
+DEBUG 2021-11-01 22:52:27.761 UTC: 	 Uploading archive /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/inputs/5e5694e3-9f6f-43ea-9d01-927fde5df28edefault.tgz (5.224609.1 MB) to the CRAB cache. Using URI https://cmsweb.cern.ch/S3/crabcache_prod
+DEBUG 2021-11-01 22:52:30.771 UTC: 	 sandbox a102ef95acbbdb171e2513f9bd555ef8ec954388aeebcd2cc731ff508f3d99fd.tar.gz is already in the S3 store, will not upload again
+DEBUG 2021-11-01 22:52:30.772 UTC: 	 Loading required information from the environment
+DEBUG 2021-11-01 22:52:30.772 UTC: 	 Found CMSSW_10_6_5 for slc7_amd64_gcc820 with base /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5
+DEBUG 2021-11-01 22:52:30.772 UTC: 	 Making tarball in /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/inputs/debugFiles.tgz
+DEBUG 2021-11-01 22:52:30.780 UTC: 	 Uploading archive /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/inputs/debugFiles.tgz (3 KB) to the CRAB cache. Using URI https://cmsweb.cern.ch/S3/crabcache_prod
+DEBUG 2021-11-01 22:52:31.604 UTC: 	 Will execute:
+curl -f -v -X POST  -H "User-Agent: CRAB" -F "key=alkaloge/sandboxes/d0ed230062dff1352e75700cafc5956d95ecccfd5f4d87078b34214b8ecb3ea7.tar.gz" -F "AWSAccessKeyId=ab00fcc889f248c495d2875f15a3badb" -F "policy=eyJjb25kaXRpb25zIjogW3siYnVja2V0IjogImNyYWJjYWNoZV9wcm9kIn0sIHsia2V5IjogImFsa2Fsb2dlL3NhbmRib3hlcy9kMGVkMjMwMDYyZGZmMTM1MmU3NTcwMGNhZmM1OTU2ZDk1ZWNjY2ZkNWY0ZDg3MDc4YjM0MjE0YjhlY2IzZWE3LnRhci5neiJ9XSwgImV4cGlyYXRpb24iOiAiMjAyMS0xMS0wMVQyMzo1MjozMVoifQ==" -F "signature=qp7X4IQiWJcmmVMSU8/8mY26zwo=" -F "file=@/uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/inputs/debugFiles.tgz" "https://s3.cern.ch/crabcache_prod"
+DEBUG 2021-11-01 22:52:33.224 UTC: 	 exitcode: 0
+stdout: 
+stderr: Note: Unnecessary use of -X or --request, POST is already inferred.
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 137.138.77.21...
+* TCP_NODELAY set
+* Connected to s3.cern.ch (137.138.77.21) port 443 (#0)
+* ALPN, offering http/1.1
+* Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
+* successfully set certificate verify locations:
+  CAfile: /etc/pki/tls/certs/ca-bundle.crt
+  CApath: none
+* TLSv1.2 (OUT), TLS header, Certificate Status (22):
+} [5 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client hello (1):
+} [512 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server hello (2):
+{ [70 bytes data]
+* TLSv1.2 (IN), TLS handshake, Certificate (11):
+{ [4780 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server key exchange (12):
+{ [333 bytes data]
+* TLSv1.2 (IN), TLS handshake, Server finished (14):
+{ [4 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Client key exchange (16):
+} [70 bytes data]
+* TLSv1.2 (OUT), TLS change cipher, Client hello (1):
+} [1 bytes data]
+* TLSv1.2 (OUT), TLS handshake, Finished (20):
+} [16 bytes data]
+* TLSv1.2 (IN), TLS change cipher, Client hello (1):
+{ [1 bytes data]
+* TLSv1.2 (IN), TLS handshake, Finished (20):
+{ [16 bytes data]
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN, server accepted to use http/1.1
+* Server certificate:
+*  subject: C=CH; ST=Genève; L=Meyrin; O=Organisation européenne pour la Recherche nucléaire (CERN); CN=*.s3.cern.ch
+*  start date: Mar 10 00:00:00 2021 GMT
+*  expire date: Mar 10 23:59:59 2022 GMT
+*  subjectAltName: host "s3.cern.ch" matched cert's "s3.cern.ch"
+*  issuer: C=GB; ST=Greater Manchester; L=Salford; O=Sectigo Limited; CN=Sectigo RSA Organization Validation Secure Server CA
+*  SSL certificate verify ok.
+} [5 bytes data]
+> POST /crabcache_prod HTTP/1.1
+> Host: s3.cern.ch
+> Accept: */*
+> User-Agent: CRAB
+> Content-Length: 4392
+> Content-Type: multipart/form-data; boundary=------------------------b4b22a04fa53953c
+> Expect: 100-continue
+> 
+* Done waiting for 100-continue
+  0  4392    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0} [5 bytes data]
+< HTTP/1.1 100 Continue
+{ [5 bytes data]
+< HTTP/1.1 204 No Content
+< Accept-Ranges: bytes
+< Bucket: crabcache_prod
+< Date: Mon, 01 Nov 2021 22:52:33 GMT
+< X-Amz-Request-Id: tx0000000000000017127bb-0061806fb0-1e4f6b7d-default
+< 
+100  4392    0     0  100  4392      0   2772  0:00:01  0:00:01 --:--:--  2772
+* Connection #0 to host s3.cern.ch left intact
+
+DEBUG 2021-11-01 22:52:33.224 UTC: 	 sandbox /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/inputs/debugFiles.tgz successully uploaded to S3
+DEBUG 2021-11-01 22:52:33.225 UTC: 	 Result uploading input files: a102ef95acbbdb171e2513f9bd555ef8ec954388aeebcd2cc731ff508f3d99fd.tar.gz 
+WARNING 2021-11-01 22:52:33.225 UTC: 	 Warning: The following output files will not be published, as they are not EDM files: ['histo.root']
+INFO 2021-11-01 22:52:33.225 UTC: 	 Sending the request to the server at cmsweb.cern.ch
+DEBUG 2021-11-01 22:52:33.225 UTC: 	 Submitting {'maxjobruntime': 300, 'extrajdl': [], 'ignorelocality': 0, 'savelogsflag': 1, 'useparent': 0, 'asyncdest': 'T3_US_FNALLPC', 'algoargs': 1, 'cachefilename': 'a102ef95acbbdb171e2513f9bd555ef8ec954388aeebcd2cc731ff508f3d99fd.tar.gz', 'numcores': 4, 'addoutputfiles': [], 'generator': 'pythia', 'maxmemory': 9000, 'publishdbsurl': 'https://cmsweb.cern.ch/dbs/prod/phys03/DBSWriter', 'priority': 10, 'jobsw': 'CMSSW_10_6_5', 'edmoutfiles': [], 'userfiles': [], 'primarydataset': '', 'inputdata': '/TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/RunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1/MINIAODSIM', 'lfn': '/store/group/lpcsusyhiggs/ntuples/MetStudies/2018/TTJets_TuneCP5_13TeV-madgraphMLM-pythia8', 'dryrun': 0, 'workflow': 'crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8', 'cacheurl': u'https://cmsweb.cern.ch/S3/crabcache_prod', 'nonprodsw': 1, 'tfileoutfiles': ['histo.root'], 'oneEventMode': 0, 'debugfilename': 'd0ed230062dff1352e75700cafc5956d95ecccfd5f4d87078b34214b8ecb3ea7.tar.gz', 'saveoutput': 1, 'publication': 1, 'jobarch': 'slc7_amd64_gcc820', 'totalunits': 0, 'splitalgo': 'FileBased', 'ignoreglobalblacklist': 0, 'nonvaliddata': 0, 'dbsurl': 'https://cmsweb.cern.ch/dbs/prod/global/DBSReader', 'publishgroupname': 0, 'jobtype': 'Analysis', 'publishname2': ''} 
+DEBUG 2021-11-01 22:52:33.226 UTC: 	 Encoded submit request: maxjobruntime=300&ignorelocality=0&savelogsflag=1&useparent=0&asyncdest=T3_US_FNALLPC&algoargs=1&cachefilename=a102ef95acbbdb171e2513f9bd555ef8ec954388aeebcd2cc731ff508f3d99fd.tar.gz&numcores=4&generator=pythia&maxmemory=9000&publishdbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fphys03%2FDBSWriter&priority=10&jobsw=CMSSW_10_6_5&primarydataset=&inputdata=%2FTTJets_TuneCP5_13TeV-madgraphMLM-pythia8%2FRunIIAutumn18MiniAOD-102X_upgrade2018_realistic_v15-v1%2FMINIAODSIM&lfn=%2Fstore%2Fgroup%2Flpcsusyhiggs%2Fntuples%2FMetStudies%2F2018%2FTTJets_TuneCP5_13TeV-madgraphMLM-pythia8&dryrun=0&workflow=crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8&cacheurl=https%3A%2F%2Fcmsweb.cern.ch%2FS3%2Fcrabcache_prod&nonprodsw=1&oneEventMode=0&debugfilename=d0ed230062dff1352e75700cafc5956d95ecccfd5f4d87078b34214b8ecb3ea7.tar.gz&saveoutput=1&publication=1&jobarch=slc7_amd64_gcc820&totalunits=0&splitalgo=FileBased&ignoreglobalblacklist=0&nonvaliddata=0&dbsurl=https%3A%2F%2Fcmsweb.cern.ch%2Fdbs%2Fprod%2Fglobal%2FDBSReader&publishgroupname=0&jobtype=Analysis&publishname2=&tfileoutfiles=histo.root
+DEBUG 2021-11-01 22:52:34.005 UTC: 	 Result: {u'result': [{u'RequestName': u'211101_225233:alkaloge_crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8'}]}
+INFO 2021-11-01 22:52:34.009 UTC: 	 Success: Your task has been delivered to the prod CRAB3 server.
+INFO 2021-11-01 22:52:34.010 UTC: 	 Task name: 211101_225233:alkaloge_crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-11-01 22:52:34.010 UTC: 	 Project dir: ./crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8
+INFO 2021-11-01 22:52:34.010 UTC: 	 Please use ' crab status -d ./crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8 ' to check how the submission process proceeds.
+DEBUG 2021-11-01 22:52:34.010 UTC: 	 About to return
+INFO 2021-11-01 22:52:34.014 UTC: 	 Log file is /uscms_data/d3/alkaloge/MetStudies/CMSSW_10_6_5/src/Wjets/TM/test/crab_MC/crab_TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/crab.log

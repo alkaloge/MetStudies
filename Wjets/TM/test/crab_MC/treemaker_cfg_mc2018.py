@@ -13,6 +13,7 @@ process.GlobalTag = GlobalTag(process.GlobalTag, '102X_upgrade2018_realistic_v18
 
 #JEC from sqlite file
 from CondCore.DBCommon.CondDBSetup_cfi import CondDBSetup
+#from CondCore.CondDB.CondDB_cfi import CondDB
 process.jec = cms.ESSource('PoolDBESSource',
     CondDBSetup,
     connect = cms.string('sqlite:Autumn18_V19_MC.db'),
@@ -30,6 +31,7 @@ process.jec = cms.ESSource('PoolDBESSource',
     )
 )
 process.es_prefer_jec = cms.ESPrefer('PoolDBESSource', 'jec')
+updatedTauName = "slimmedTausNewID" #name of pat::Tau collection with new tau-Ids
 
 process.load('JetMETCorrections.Configuration.DefaultJEC_cff')
 from PhysicsTools.PatAlgos.tools.jetTools import updateJetCollection
@@ -46,7 +48,8 @@ readFiles = cms.untracked.vstring()
 secFiles = cms.untracked.vstring()
 readFiles.extend( [
 	#"root://cms-xrd-global.cern.ch//store/mc/RunIIAutumn18MiniAOD/GJets_HT-40To100_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/120000/FB4E61D1-33FC-C248-B47C-EEB5334F6331.root"
-        "root://cms-xrd-global.cern.ch//store/mc/RunIIAutumn18MiniAOD/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/362B457C-213F-EE49-92B3-28063639CBBA.root"
+        #"root://cms-xrd-global.cern.ch//store/mc/RunIIAutumn18MiniAOD/QCD_HT100to200_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/362B457C-213F-EE49-92B3-28063639CBBA.root"
+        "root://cms-xrd-global.cern.ch//store/mc/RunIIAutumn18MiniAOD/TTJets_TuneCP5_13TeV-madgraphMLM-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/10000/05134D30-E44E-B649-890A-492D4E85AF3C.root"
     ] );
 
 process.source = cms.Source("PoolSource",
@@ -60,21 +63,6 @@ process.options = cms.untracked.PSet(
 
 process.load("RecoMET.METFilters.ecalBadCalibFilter_cfi")
 baddetEcallist = cms.vuint32(
-    '''
-    [872439604,872422825,872420274,872423218,
-     872423215,872416066,872435036,872439336,
-     872420273,872436907,872420147,872439731,
-     872436657,872420397,872439732,872439339,
-     872439603,872422436,872439861,872437051,
-     872437052,872420649,872422436,872421950,
-     872437185,872422564,872421566,872421695,
-     872421955,872421567,872437184,872421951,
-     872421694,872437056,872437057,872437313,
-     872438182,872438951,872439990,872439864,
-     872439609,872437181,872437182,872437053,
-     872436794,872436667,872436536,872421541,
-     872421413,872421414,872421031,872423083,872421439])
-    '''
     [872439604,872422825,872420274,872423218,872423215,872416066,872435036,872439336,
     872420273,872436907,872420147,872439731,872436657,872420397,872439732,872439339,
     872439603,872422436,872439861,872437051,872437052,872420649,872421950,872437185,
@@ -90,6 +78,15 @@ process.ecalBadCalibReducedMINIAODFilter = cms.EDFilter(
     taggingMode      = cms.bool(True),
     debug            = cms.bool(False)
     )
+
+#byVVVLooseDeepTau2017v2p1VSjet
+import RecoTauTag.RecoTau.tools.runTauIdMVA as tauIdConfig
+tauIdEmbedder = tauIdConfig.TauIDEmbedder(process, cms, debug = False,
+                    updatedTauName = updatedTauName,
+                    toKeep = ["deepTau2017v2p1", #deepTau TauIDs
+                               ])
+tauIdEmbedder.runTauID()
+
 
 #input to analyzer
 process.content = cms.EDAnalyzer("EventContentAnalyzer")
@@ -111,7 +108,7 @@ process.demo = cms.EDAnalyzer('TM',
                               vertexLabel_         = cms.untracked.InputTag("offlineSlimmedPrimaryVertices","",""),
                               fillmuonInfo_        = cms.untracked.bool(True),
                               muonLabel_           = cms.untracked.InputTag("slimmedMuons"),
-                              fillPhotInfo_        = cms.untracked.bool(True),
+                              fillPhotInfo_        = cms.untracked.bool(False),
                               photonLabel_         = cms.untracked.InputTag('slimmedPhotons'),
                               fillelectronInfo_    = cms.untracked.bool(True),
                               electronLabel_       = cms.untracked.InputTag("slimmedElectrons"),
@@ -125,8 +122,9 @@ process.demo = cms.EDAnalyzer('TM',
                               ecalBadCalibLabel_   = cms.untracked.InputTag("ecalBadCalibReducedMINIAODFilter"),
                               fillpfjetInfo_       = cms.untracked.bool(True),
                               pfjetLabel_          = cms.untracked.InputTag("selectedUpdatedPatJetsUpdatedJEC"),
-                              filltauInfo_         = cms.untracked.bool(False),
-                              tauLabel_            = cms.untracked.InputTag("slimmedTaus"),                              
+                              filltauInfo_         = cms.untracked.bool(True),
+                              #tauLabel_            = cms.untracked.InputTag("slimmedTaus"),                              
+                              tauLabel_            = cms.untracked.InputTag("slimmedTausNewID"),                              
                               )
 
 process.TFileService = cms.Service("TFileService",
@@ -164,6 +162,8 @@ process.p = cms.Path(
     process.fullPatMetSequence*
     process.puppiMETSequence*
     process.fullPatMetSequencePuppi*
+    process.rerunMvaIsolationSequence * 
+    getattr(process,updatedTauName) *
     process.demo
     )
 
@@ -172,7 +172,7 @@ process.p = cms.Path(
 process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32(1)
 
 # process number of events
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100) )
 
 process.schedule=cms.Schedule(process.p)
 
