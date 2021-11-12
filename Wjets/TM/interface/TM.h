@@ -50,6 +50,7 @@ class TM : public edm::EDAnalyzer {
       TFile* file;
       TTree* tree_;
       const size_t MaxN;
+      TH1D*  nEvents;
 
       bool debug_;
       bool fillPhotInfo_;

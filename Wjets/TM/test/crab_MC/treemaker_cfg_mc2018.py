@@ -91,11 +91,12 @@ tauIdEmbedder.runTauID()
 #input to analyzer
 process.content = cms.EDAnalyzer("EventContentAnalyzer")
 process.demo = cms.EDAnalyzer('TM',
-                              debug_               = cms.untracked.bool(True),
+                              debug_               = cms.untracked.bool(False),
                               isMC_               = cms.untracked.bool(True),
                               fillgenparticleInfo_ = cms.untracked.bool(True),  #false for data
                               genParticleLabel_    = cms.untracked.InputTag("prunedGenParticles"),
                               genEventLabel_       = cms.untracked.InputTag("generator"),
+                              genEventInfo_       = cms.untracked.InputTag("generator"),
                               generatorlheLabel_   = cms.untracked.InputTag("source"),
                               filleventInfo_       = cms.untracked.bool(True), 
                               fillpileUpInfo_      = cms.untracked.bool(True),   #false for data
@@ -169,10 +170,10 @@ process.p = cms.Path(
 
 
 # reduce verbosity
-process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32(1)
+process.MessageLogger.cerr.FwkReport.reportEvery = cms.untracked.int32(1000)
 
 # process number of events
-process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(100) )
+process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 
 process.schedule=cms.Schedule(process.p)
 
