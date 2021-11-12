@@ -6,6 +6,7 @@
 #include "FWCore/ServiceRegistry/interface/Service.h"
 #include "CommonTools/UtilAlgos/interface/TFileService.h"
 #include "DataFormats/Common/interface/TriggerResults.h"
+#include "FWCore/Framework/interface/ConsumesCollector.h"
 
 TM::TM(const edm::ParameterSet& iConfig):
   MaxN(200),
@@ -45,9 +46,11 @@ TM::TM(const edm::ParameterSet& iConfig):
   
   edm::Service<TFileService> fs;
   tree_ = fs->make<TTree>("tree","tree");
+  //nEvents = fs->make<TH1D>("nEvents", "nEvents", 2, -0.5, +1.5);
 
   if( filltriggerInfo_)       triggerInfo_     = new triggerInfo    ("reco", tree_, debug_, iConfig);
-  if( fillgenparticleInfo_)   genparticleInfo_ = new genparticleInfo("reco", tree_, debug_, iConfig);
+  if( fillgenparticleInfo_)   genparticleInfo_ = new genparticleInfo("reco", tree_, debug_, iConfig,consumesCollector());
+  //if( fillgenparticleInfo_)   genparticleInfo_ = new genparticleInfo("reco", tree_, debug_, iConfig);
   if( filleventInfo_)         eventInfo_       = new eventInfo      ("reco", tree_, debug_, iConfig);
   if( fillpileUpInfo_)        pileUpInfo_      = new pileUpInfo     ("reco", tree_, debug_, iConfig);
   if( fillvertexInfo_)        vertexInfo_      = new vertexInfo     ("reco", tree_, debug_, iConfig);
@@ -93,7 +96,7 @@ TM::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup){
   }
 
   if( filleventInfo_)       eventInfo_      ->Fill(iEvent);
-  if( fillgenparticleInfo_) genparticleInfo_->Fill(iEvent);
+  if( fillgenparticleInfo_) genparticleInfo_->Fill(iEvent, nEvents);
   if( fillpileUpInfo_)      pileUpInfo_     ->Fill(iEvent);
   if( filltriggerInfo_)     triggerInfo_    ->Fill(iEvent, iSetup, all_triggers, hltConfig_, hltPrescale_, hltlabel_, MaxN);
                                              //->AddTriggerObjects(iEvent,TriggerObjectCollectionToken_,*HLTrigger));
@@ -113,6 +116,9 @@ TM::analyze(const edm::Event& iEvent, const edm::EventSetup& iSetup){
 
 void
 TM::beginJob(){
+
+  edm::Service<TFileService> fs;
+  nEvents = fs->make<TH1D>("nEvents", "nEvents", 2, -0.5, +1.5);
 
 }
 
